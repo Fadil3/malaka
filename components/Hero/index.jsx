@@ -36,11 +36,23 @@ export default function Hero() {
                   alt="download"
                 />
               </div>
-
               <div className="">
                 <p className="text-base opacity-60 text-white">SUDAH TERJUAL</p>
                 <p className="font-semibold text-2xl text-white">501,234+</p>
               </div>
+            </div>
+            <p className="text-white opacity-40 mt-24">
+              Teknologi yang digunakan
+            </p>
+            <div className="flex gap-4 mt-2">
+              <Image src="/html.svg" width={30} height={30} alt="logo" />
+              <Image src="/css.svg" width={30} height={30} alt="logo" />
+              <Image src="/firefox.svg" width={30} height={30} alt="logo" />
+              <Image src="/sublime.svg" width={30} height={30} alt="logo" />
+              <Image src="/terminal.svg" width={30} height={30} alt="logo" />
+              <Image src="/nodejs.svg" width={30} height={30} alt="logo" />
+              <Image src="/yarn.svg" width={30} height={30} alt="logo" />
+              <Image src="/npm.svg" width={30} height={30} alt="logo" />
             </div>
           </div>
           <div className="-my-16 z-10 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
