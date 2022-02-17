@@ -1,3 +1,5 @@
+import Charateristic from './Charateristic'
+
 export default function For() {
   return (
     <>
@@ -17,6 +19,23 @@ export default function For() {
             dan tanpa mengandalkan front-end developer!
           </p>
         </div>
+      </section>
+      <section className="mt-20 flex gap-6">
+        <Charateristic
+          image="/f1.png"
+          title="Utility-First Framework"
+          description="Tailwind hadir dengan konsep utility-first. Utility-first artinya banyak class-class kecil yang bisa digabung untuk menjadi sebuah UI."
+        />
+        <Charateristic
+          image="/f2.png"
+          title="Tailwind JIT Engine"
+          description="JIT engine akan men-generate utility-class yang kita gunakan saja. Ini akan membuat pengalaman pengembangan semakin baik."
+        />
+        <Charateristic
+          image="/f3.png"
+          title="Unopinionated-Framework"
+          description="Tailwind tidak memiliki pra-desain komponen apapun, ini membuat desain website yang kita buat menjadi unik."
+        />
       </section>
     </>
   )
