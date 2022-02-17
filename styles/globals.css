@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.btn-shadow {
+  box-shadow: 0 15px 30px rgb(0 186 199 / 33%);
+}
