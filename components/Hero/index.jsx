@@ -41,7 +41,7 @@ export default function Hero() {
                 <p className="font-semibold text-2xl text-white">501,234+</p>
               </div>
             </div>
-            <p className="text-white opacity-40 mt-24">
+            <p className="text-white opacity-40 mt-8">
               Teknologi yang digunakan
             </p>
             <div className="flex gap-4 mt-2">
