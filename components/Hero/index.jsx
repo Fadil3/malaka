@@ -55,7 +55,7 @@ export default function Hero() {
               <Image src="/npm.svg" width={30} height={30} alt="logo" />
             </div>
           </div>
-          <div className="-my-16 z-10 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
+          <div className="-my-16 z-10 drop-shadow-[10px_20px_15px_rgba(0,0,0,0.6)]">
             <Image src="/buku.png" width={522} height={800} alt="logo" />
           </div>
         </div>
