@@ -16,17 +16,32 @@ export default function Hero() {
               diakhiri dengan membangun sebuah website yang responsive dengan
               Tailwind CSS.
             </p>
-            <Button className="mt-4 btn-shadow " variant="primary">
-              <span className="flex gap-4">
-                Beli Sekarang
+            <div className="flex items-center gap-6 mt-4">
+              <Button className=" btn-shadow " variant="primary">
+                <span className="flex gap-4">
+                  Beli Sekarang
+                  <Image
+                    src="/arrow-right-circle.svg"
+                    width={20}
+                    height={20}
+                    alt="logo"
+                  />
+                </span>
+              </Button>
+              <div className="-mt-6">
                 <Image
-                  src="/arrow-right-circle.svg"
-                  width={20}
-                  height={20}
-                  alt="logo"
+                  src="/download.svg"
+                  width={24}
+                  height={24}
+                  alt="download"
                 />
-              </span>
-            </Button>
+              </div>
+
+              <div className="">
+                <p className="text-base opacity-60 text-white">SUDAH TERJUAL</p>
+                <p className="font-semibold text-2xl text-white">501,234+</p>
+              </div>
+            </div>
           </div>
           <div className="-my-16 z-10 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
             <Image src="/buku.png" width={522} height={800} alt="logo" />
