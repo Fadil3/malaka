@@ -1,6 +1,7 @@
 import For from '../components/For'
 import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
+import Introduction from '../components/Introduction'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <div className="mx-32">
         <For />
       </div>
+      <Introduction />
     </>
   )
 }
