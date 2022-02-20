@@ -1,5 +1,7 @@
+import For from '../components/For'
 import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
+import Introduction from '../components/Introduction'
 
 export default function Home() {
   return (
@@ -8,7 +10,12 @@ export default function Home() {
       <div className="bg-dark px-32 border-b-8 h-[650px] rounded-br-[140px] pt-2 relative">
         <Hero />
       </div>
-      <div className="bg-dark -mt-20 -skew-y-6 h-32 rounded-br-[130px]"></div>
+
+      <div className="bg-dark -mt-20 -skew-y-6 h-32 rounded-br-[130px]" />
+      <div className="mx-32">
+        <For />
+      </div>
+      <Introduction />
     </>
   )
 }
