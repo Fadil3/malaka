@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Introduction() {
   return (
     <>
-      <div className="flex px-32 py-24 mt-20 bg-primary justify-between">
+      <div className="flex px-20 py-24 mt-20 bg-primary justify-between">
         <div className="w-4/12 text-white">
           <p className="font-bold">BUKU INI UNTUK SIAPA</p>
           <p className="font-medium text-3xl">
