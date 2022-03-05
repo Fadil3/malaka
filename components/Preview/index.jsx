@@ -1,5 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
 import Badge from '../Badge'
-import Image from 'next/image'
+import SliderBook from '../SliderBook'
 
 export default function Preview() {
   return (
@@ -16,6 +17,12 @@ export default function Preview() {
             <br />
             detail halaman buku tersebut dan membaca isinya.
           </p>
+        </div>
+      </div>
+      <div className="px-20 pt-10 flex bg-secondary justify-evenly">
+        <img src="/book-texture.svg" alt="cover" className=" h-100" />
+        <div className="w-4/12 self-center">
+          <SliderBook />
         </div>
       </div>
     </>
