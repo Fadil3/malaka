@@ -25,6 +25,7 @@ export default function Preview() {
           <SliderBook />
         </div>
       </div>
+      <div className="h-52 bg-secondary"></div>
     </>
   )
 }

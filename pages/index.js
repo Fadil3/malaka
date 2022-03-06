@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar'
 import Introduction from '../components/Introduction'
 import Benefit from '../components/Benefit'
 import Preview from '../components/Preview'
+import Pricelist from '../components/Pricelist'
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Introduction />
       <Benefit />
       <Preview />
+      <Pricelist />
     </>
   )
 }
